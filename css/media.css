@@ -22,7 +22,21 @@
     .section-two .title {
         text-align: left;
     }
-}
+
+/*-------------------------------------section four pade index-----------------------------------------*/
+    .section-four {
+    }
+
+    .list-section-four {
+        column-gap: 24px;
+        row-gap: 64px;
+        max-width: 552px;
+        margin: 0 auto;
+    }
+    
+    .item-section-four {
+        width: calc((100% - 24px) / 2);
+    }
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -67,7 +81,11 @@
         margin-bottom: 8px;
     }
 
-/*-------------------------------------section four pade index-----------------------------------------*/
+/*-------------------------------------section three pade index-----------------------------------------*/
+    .section-three {
+        padding-bottom: 120px;
+    }
+
     .section-three .section-title {
         margin-bottom: 72px;
         display: block;
@@ -79,5 +97,24 @@
         gap: 24px;
         margin: 72px auto 0;
         padding: 0;
-   }
+    }
+
+/*-------------------------------------section four pade index-----------------------------------------*/
+
+    .section-four {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .list-section-four {
+        gap: 24px;
+        min-width: 100%;
+    }
+
+    .item-section-four {
+        width: calc((100% - 72px) / 4);
+
+    .section-four .title {
+            line-height: 1.2;
+        }
 }

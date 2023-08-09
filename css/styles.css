@@ -577,7 +577,7 @@ img {
 
 /*-------------------------------------section three pade index-----------------------------------------*/
 .section-three {
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 
 .section-three .section-title {
@@ -592,19 +592,20 @@ img {
 
 .section-four {
     background-color: var(--cloud-color);
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .list-section-four {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-section-four {
     background-color: var(--white-color);
-    width: calc((100% - 72px) / 4);
     justify-content: center;
     align-items: center;
     border-radius: 0px 0px 4px 4px;
@@ -615,7 +616,9 @@ img {
 }
 
 .section-four .title {
+    font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.025em;
     margin-bottom: 8px;
 }
 
@@ -643,7 +646,6 @@ img {
 
 .link-icon {
     display: flex;
-    /*fill: var(--cloud-color);*/
     background-color: var(--iris-color);
     border-radius: 50%;
     width: 100%;
