@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="WebStudio description meta tag content" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>WebStudio: Info, Services und Team.</title>
     <link
       rel="stylesheet"
@@ -15,19 +17,40 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
 
   <body>
-    <!-- Header -->
+    <!--
 
     <header class="page-header">
       <div class="container">
-        <!--Navigation menu-->
+
+
+
 
         <nav class="page-nav">
           <a href="./index.html" class="link-logo link"
             >Web<span class="span-logo-header">Studio</span></a
           >
+
+
+
+
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="icon-mobil-menu" width="24" height="24">
+              <use href="./images/icons.svg#icon-mobil-menu"></use>
+            </svg>
+          </button>
+
+
+
+
+
           <ul class="list-header list">
             <li>
               <a href="./index.html" class="current page-link link">Studio</a>
@@ -39,7 +62,6 @@
           </ul>
         </nav>
 
-        <!--Contacts-->
 
         <address class="header-contacts">
           <ul class="list-header list">
@@ -55,9 +77,10 @@
         </address>
       </div>
     </header>
-
+-->
     <!--Main content-->
     <main>
+      <!--
       <section class="section-one">
         <div class="container">
           <h1 class="page-title">Effective Solutions for Your Business</h1>
@@ -66,7 +89,7 @@
           </button>
         </div>
       </section>
-
+     -->
       <section class="section-two">
         <div class="container">
           <h2 class="section-title visually-hidden">Title</h2>
@@ -122,7 +145,7 @@
           </ul>
         </div>
       </section>
-
+      <!--
       <section class="section-three">
         <div class="container">
           <h2 class="section-title">What are we doing</h2>
@@ -444,8 +467,9 @@
           </ul>
         </div>
       </section>
+           -->
     </main>
-
+    <!--
     <footer class="footer">
       <div class="container container-footer">
         <div class="footer-left">
@@ -532,6 +556,33 @@
         </div>
       </div>
     </footer>
+-->
+    <!--
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Products</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+        <li><a href="" class="link">Career</a></li>
+      </ul>
+    </div>
+-->
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -612,6 +663,14 @@
         </form>
       </div>
     </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
