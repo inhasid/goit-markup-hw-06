@@ -581,15 +581,11 @@ img {
 }
 
 .section-three .section-title {
-    margin-bottom: 72px;
+    display: none;
 }
 
 .list-section-three {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin: 72px auto 0;
-    padding: 0;
+    display: none;
 }
 
 /*-------------------------------------section four pade index-----------------------------------------*/

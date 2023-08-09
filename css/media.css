@@ -66,4 +66,18 @@
         background-color: var(--cloud-color);
         margin-bottom: 8px;
     }
+
+/*-------------------------------------section four pade index-----------------------------------------*/
+    .section-three .section-title {
+        margin-bottom: 72px;
+        display: block;
+    }
+
+    .list-section-three {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin: 72px auto 0;
+        padding: 0;
+   }
 }
