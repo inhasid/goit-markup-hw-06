@@ -671,8 +671,8 @@ img {
 
 /*-------------------------------------section five pade index-----------------------------------------*/
 .section-five {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     padding-right: 0;
     padding-left: 0;
 }
@@ -683,13 +683,16 @@ img {
 
 .list-section-five {
     display: flex;
-    gap: 24px;
+    column-gap: 16px;
+    row-gap: 88px;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
     margin: 0 auto;
 }
 
 .item-section-five {
-    width: calc((100% - 120px) / 6);
+    width: calc((100% - 16px) / 2);
     height: 88px;
 }
 
