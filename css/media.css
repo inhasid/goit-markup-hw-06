@@ -342,9 +342,15 @@
 
 /*--------------------------------------------footer-------------------------------------------------*/
     .footer > .container {
-        max-width: 100%;
+        width: 100%;
+        max-width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 
+    .container-footer {
+        gap: 0;
+    }
     .footer {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -379,6 +385,7 @@
 
     .subscribe-conteiner {
         text-align: left;
+        margin-left: 80px;
     }
 
     .futer-form {
