@@ -282,7 +282,6 @@ img {
     border-radius: 50%;
     display: flex;
     align-items: center;
-   /* justify-content: space-between;*/
     cursor: pointer;
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -363,8 +362,6 @@ img {
 .section-one {
     background-color: var(--navy-blue);
     color: var(--white-color);
-   /* padding-top: 188px;
-    padding-bottom: 188px;*/
     padding-top: 112px;
     padding-bottom: 112px;
     margin: 0 auto;
@@ -585,21 +582,21 @@ img {
     fill: currentColor;
 }
 
-
-
 /*--------------------------------------------footer-------------------------------------------------*/
 
 .footer {
     background-color: var(--navy-blue);
     color: var(--cloud-color);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 98px;
+    padding-bottom: 96px;
 }
 
 .link-logo-footer {
     line-height: 1.17;
-    display: inline-block;
-    margin-bottom: 16px;
+    display: block;
+   /* margin-bottom: 16px;*/
+    margin: 0 auto;
+    text-align: center;
 }
 
 .span-logo-footer {
@@ -607,22 +604,31 @@ img {
 }
 
 .footer .text {
-    max-width: 264px;
+    max-width: 268px;
 }
+
+.footer-right {
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 .social-media-footer {
     font-weight: 500;
+ /*   margin-top: 72px;*/
     margin-bottom: 16px;
     color: var(--white-color);
 }
 
 .container-footer {
     display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
     align-items: baseline;
 }
 
 .footer-left {
-    margin-right: 120px;
+    margin: 0 auto;
 }
 
 .social-links-footer {
@@ -649,12 +655,15 @@ img {
 }
 
 .subscribe-conteiner {
-    padding-left: 80px;
+    padding-left: 0px;
+    text-align: center;
 }
 
 .futer-form {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
+    justify-content: center;
 }
 
 .footer-input {
@@ -667,7 +676,7 @@ img {
     color: var(--white-color);
     padding-left: 16px;
     background-color: transparent;
-    width: 264px;
+    width: 280px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid var(--white, #FFF);
@@ -716,7 +725,7 @@ img {
 }
 
 .modal {
-    width: 408px;
+    width: 300px;
     min-height: 584px;
     position: absolute;
     top: 50%;
@@ -737,13 +746,6 @@ img {
 .open-modal:hover {
     opacity: 0.8;
 }
-
-/*.modal-form {
-
-    font-size: 12px;
-    font-weight: 400;
-
-}*/
 
 .modal-title {
     width: 100%;

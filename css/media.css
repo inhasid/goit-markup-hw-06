@@ -10,6 +10,14 @@
     .mob-socials-list {
         gap: 56px;
     }
+
+    .footer-input {
+        width: 398px;
+    }
+
+    .modal {
+        width: 408px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -52,12 +60,14 @@
         display: flex;
         gap: 12px;
         flex-wrap: wrap;
+        font-size: 12px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
     }
 
     .menu-toggle {
         display: none;
     }
-
 
 /*-----------------------------------------------hero-----------------------------------------------------*/
     .section-one {
@@ -121,7 +131,47 @@
         width: calc((100% - 32px) / 3);
         height: 88px;
     }
- }
+/*--------------------------------------------footer-------------------------------------------------*/
+    .footer > .container {
+        max-width: 552px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container-footer {
+        max-width: 552px;
+        gap: 24px;
+        row-gap: 72px;
+    }
+
+    .link-logo-footer {
+        text-align: left;
+    }
+
+    .footer .text {
+        max-width: 264px;
+    }
+    .footer-left {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer-right {
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .subscribe-conteiner {
+        text-align: left;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+
+
+}
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -174,6 +224,12 @@
 
     .menu-toggle {
         display: none;
+    }
+
+    .header-contacts {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
 
 /*-----------------------------------------------hero-----------------------------------------------------*/
@@ -292,4 +348,52 @@
         height: 88px;
     }
 
+/*--------------------------------------------footer-------------------------------------------------*/
+    .footer > .container {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .link-logo-footer {
+        display: inline-block;
+        margin-bottom: 16px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .footer .text {
+        max-width: 264px;
+    }
+
+    .footer-left {
+        margin-right: 120px;
+    }
+
+    .subscribe-conteiner {
+        padding-left: 80px;
+    }
+
+    .footer-right {
+        margin: 0px;
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .subscribe-conteiner {
+        text-align: left;
+    }
+
+    .futer-form {
+        justify-content: left;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
 }
