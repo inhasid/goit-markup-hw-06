@@ -19,38 +19,13 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/media.css" />
   </head>
-
   <body>
-    <!--
-
     <header class="page-header">
       <div class="container">
-
-
-
-
         <nav class="page-nav">
           <a href="./index.html" class="link-logo link"
             >Web<span class="span-logo-header">Studio</span></a
           >
-
-
-
-
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg class="icon-mobil-menu" width="24" height="24">
-              <use href="./images/icons.svg#icon-mobil-menu"></use>
-            </svg>
-          </button>
-
-
-
-
-
           <ul class="list-header list">
             <li>
               <a href="./index.html" class="current page-link link">Studio</a>
@@ -61,10 +36,8 @@
             <li><a href="" class="page-link link">Contacts</a></li>
           </ul>
         </nav>
-
-
         <address class="header-contacts">
-          <ul class="list-header list">
+          <ul class="list-contacts list-header list">
             <li>
               <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
@@ -75,9 +48,104 @@
             </li>
           </ul>
         </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="icon-mobil-menu" width="32" height="22">
+            <use href="./images/icons.svg#icon-mobil-menu"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="menu-container js-menu-container" id="mobile-menu">
+        <div>
+          <button class="menu-toggle js-close-menu">
+            <svg class="modal-close-button" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-button"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="mob-menu-bottom">
+          <address class="mob-header-contacts">
+            <ul class="mob-list-header list">
+              <li class="mob-contacts-item">
+                <a href="tel:+110001111111" class="mob-tel link">+11 (000) 111-11-11</a>
+              </li>
+              <li class="mob-contacts-item">
+                <a href="mailto:info@devstudio.com" class="mob-mail link"
+                  >info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-socials-list list">
+            <li class="mob-socials-item">
+              <a
+                class="mob-socials-link link"
+                href=https://www.instagram.com/""
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mob-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-item">
+              <a
+                class="mob-socials-link link"
+                href="https://twitter.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mob-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-item">
+              <a
+                class="mob-socials-link link"
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mob-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-socials-item">
+              <a
+                class="mob-socials-link link"
+                href="https://www.linkedin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="mob-socials-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
--->
+
     <!--Main content-->
     <main>
       <section class="section-one">
@@ -562,33 +630,7 @@
       </div>
     </footer>
     -->
-    <!--
-    <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg
-          fill="currentColor"
-          viewBox="0 0 20 20"
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-            clip-rule="evenodd"
-          ></path>
-        </svg>
-      </button>
-
-      <ul class="mobile-menu">
-        <li><a href="" class="link">About</a></li>
-        <li><a href="" class="link">Products</a></li>
-        <li><a href="" class="link">Contacts</a></li>
-        <li><a href="" class="link">Career</a></li>
-      </ul>
-    </div>
--->
-
+  
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="close-button button" type="button" data-modal-close>

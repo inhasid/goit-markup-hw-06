@@ -2,6 +2,14 @@
     .container {
         max-width: 426px;
     }
+
+    .mob-tel {
+        font-size: 36px;
+    }
+        
+    .mob-socials-list {
+        gap: 56px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -9,11 +17,48 @@
         max-width: 738px;
     }
 
-   .page-title {
+    .page-title {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 1.12px;
-   }
+    }
+
+/*-----------------------------------------------Header-------------------------------------------------*/
+    .page-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 120;
+    }
+
+    .link-logo {
+        margin-right: 120px;
+    }
+
+    .list-header {
+        display: flex;
+        gap: 40px;
+    }
+
+    .list-contacts {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-contacts {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: none;
+    }
+
+
 /*-----------------------------------------------hero-----------------------------------------------------*/
     .section-one {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -88,6 +133,47 @@
         font-weight: 500;
         line-height: 1.4;
         letter-spacing: 0.4px;
+    }
+/*-----------------------------------------------Header-------------------------------------------------*/
+    .page-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 332;
+    }
+
+    .link-logo {
+        margin-right: 76px;
+    }
+
+    .link-logo,
+    .link-logo-footer {
+            padding-top: 0px;
+            padding-bottom: 0px;
+    }
+
+/*.list-header {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}*/
+
+    .list-contacts {
+        display: flex;
+        flex-direction:row;
+        gap: 40px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-contacts {
+        display: flex;
+        gap: 40px;
+    }
+
+    .menu-toggle {
+        display: none;
     }
 
 /*-----------------------------------------------hero-----------------------------------------------------*/
