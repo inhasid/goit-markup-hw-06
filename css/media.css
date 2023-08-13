@@ -317,7 +317,7 @@
     }
 
     .section-four .container {
-        max-width: 100%;
+        max-width: 1158px;
     }
     .list-section-four {
         gap: 24px;
@@ -337,7 +337,7 @@
     }
 
     .section-five .container {
-        min-width: 100%;
+        min-width: 1158px;
     }
 
     .list-section-five {
@@ -352,7 +352,7 @@
 
 /*--------------------------------------------footer-------------------------------------------------*/
     .footer > .container {
-        width: 100%;
+        width: 1158px;
         max-width: 1158px;
         margin: 0 auto;
     }
